@@ -32,12 +32,7 @@ body {
     align-items: center;
     padding: 2rem 0rem;
     background: rgba(31, 33, 35, 0.95);
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
+  
 
 
 }
