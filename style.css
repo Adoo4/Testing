@@ -76,7 +76,6 @@ body {
 #burgermenu {
     width: 50px;
     display: none;
-    cursor: pointer;
 }
 
 .hamburgermenu-show {
