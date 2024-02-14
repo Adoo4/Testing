@@ -69,7 +69,7 @@ body {
 
 /*HAMBURGER MENU*/
 .hamburgermenu-hide {
-    transition-delay: 0.2s;
+    
     animation: close 0.5s;
     animation-fill-mode: forwards;
     opacity: 0%;
@@ -611,8 +611,8 @@ body {
         justify-content: center;
         text-align: center;
         opacity:0;
-        color: rgba(158, 158, 158, 0.9);
-        border: 2px solid rgba(255, 255, 255, 0.3);
+        color: rgba(230, 230, 230);
+        border: 2px solid rgba(255, 255, 255, 0.7);
         font-size: 1.5rem;
         border-radius: 50px;
         overflow: hidden;
@@ -875,7 +875,7 @@ body {
         width: 100%;
     }
 
-
+}
    
 
    
