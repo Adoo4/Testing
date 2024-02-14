@@ -1,12 +1,12 @@
 
 
 let burgerMenu = document.querySelector("#burgermenu");
-let burgerDropDown = document.querySelector("#burgerdropdown");
+let burgerDropDown = document.querySelector("#nav-checkbox");
 let bottomline = document.querySelector(".hamburger-bottom-line");
 let counter = 0;
 let flag = true;
 let plus;
-burgerMenu.addEventListener("click", function() {
+burgerMenu.addEventListener("change", function() {
        
         burgerDropDown.classList.toggle("hamburgermenu-show"); 
         if(burgerDropDown.classList.contains("hamburgermenu-show")){
