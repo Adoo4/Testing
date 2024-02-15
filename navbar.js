@@ -15,7 +15,8 @@ window.addEventListener("scroll", function(){
     navbar.style.transition = "0.3s";
     logoname.style.color = "rgba(46, 46, 46)";
     navbar.style.padding = "1rem 0rem";
-    btmline.style.display = "none"
+    
+   
  }
 })
 window.addEventListener("scroll", function(){

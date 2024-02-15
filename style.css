@@ -65,12 +65,9 @@ body {
 /*HAMBURGER MENU*/
 .hamburgermenu-hide {
     
-    animation: close 0.5s ease-in-out forwards;
-    animation-fill-mode: forwards;
-    opacity: 0%;
-    transition: height 0.3s;
-    height: 0px;
-    transition-delay: 0.2s;
+    animation: open 0.22s ease-in-out alternate-reverse;
+    display: none;
+    
 }
 
 #burgermenu {
@@ -87,16 +84,14 @@ body {
     gap: 2rem;
     width: 100%;
     font-size: 1.1rem;
-    opacity: 100%;
-
-    transition: all 0.3s;
-    height: 200px;
-    transition-delay: 0.2s;
     animation: open 0.22s ease-in-out forwards;
 
 
 
 }
+.hamburgermenu-default {display: none}
+
+#nav-checkbox {display: none}
 
 @keyframes open {
     0% {
