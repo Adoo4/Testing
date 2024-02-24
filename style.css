@@ -62,6 +62,9 @@ body {
 
 }
 
+.scroll-loader{color: white; width: 0%; height: 3px; position: absolute; background: orange; bottom:0px;}
+
+
 /*HAMBURGER MENU*/
 .hamburgermenu-hide {
     
@@ -147,9 +150,10 @@ body {
 }
 
 .menutabs>a:hover {
-    background: rgb(88, 194, 230);
-    transition: 0.3s;
+    background: rgb(245, 149, 40);;
+    transition: 0.1s;
     align-items: end;
+    border-bottom: 5px solid gray;;
 }
 
 .menu>h3>span {

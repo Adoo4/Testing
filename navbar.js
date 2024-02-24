@@ -1,6 +1,6 @@
 let navbar = document.querySelector(".header");
 let logoname = document.querySelector("#span1");
-let burgerbtn = document.querySelector("#burgermenu");
+let burgerbtn = document.querySelector("#burgermenu-label");
 let btmline = document.querySelector(".hamburger-bottom-line");
 
 window.addEventListener("scroll", function(){

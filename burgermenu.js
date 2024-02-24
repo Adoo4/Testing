@@ -11,7 +11,7 @@ let plus;
 burgerMenu.addEventListener("change", function() {
  if(burgerDropDown.checked) {
     menu.className = "hamburgermenu-show";
-   
+    burgerDropDown.style.color = "rgb(88, 194, 230)";/*OVO CE TREBATI UREDITI SE*/ 
     plus = setInterval(function() {
         if(!flag){
         counter -= 1;
