@@ -173,6 +173,7 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
+    
     justify-content: center;
     padding: 5rem;
     background-image: linear-gradient(78deg, rgba(41, 41, 41, 0.418) 6%, rgba(255, 0, 0, 0) 92%), url("pexels-victor-freitas-8411302.jpg");
@@ -201,12 +202,11 @@ body {
     transform: translate(-30%, -50%);
     padding-left: 1rem;
     border-left: 15px solid rgb(255, 136, 0);
-
-    display: flex;
+    
     column-gap: 2rem;
-    flex-direction: column;
+    
     width: 50%;
-    width: -moz-fit-content;
+   
     
     
     padding: 2rem;
@@ -218,6 +218,7 @@ body {
 .section1 h1 span {
     font-size: clamp(4rem, 8vw, 6rem);
     font-family: 'Fjalla One', sans-serif;
+   
 
 
 }
